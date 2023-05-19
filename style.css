@@ -466,9 +466,15 @@ header .home .text-home {
         z-index: 1;
     }
 
+    header nav {
+        width: 100%;
+        position: fixed;
+        justify-content: space-between;
+    }
+
     nav ul.menu-list {
         display: flex;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         height: 100vh;
